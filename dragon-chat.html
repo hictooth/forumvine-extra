@@ -1,0 +1,57 @@
+<div class="site_wrapper">
+    <style>
+        #commentnotice {
+            background-color: rgba(256,0,0,0.1);
+            padding: 15px 25px;
+            margin: -10px 0px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+            color: #a55;
+            margin: 10px 0px;
+            line-height: 1.5em;
+        }
+        #commentnotice a {
+            color: #800 !important;
+            border-bottom: 1px solid #800;
+            font-weight: bold;
+        }
+    </style>
+
+    <div id="commentnotice">Participants of the Dragon Chat must follow the <a href="http://forums.berksgrapevine.com/pages/rules/" target="_blank">forum rules</a>. However, please be aware that, unlike the comments section of Grapevine articles, the Dragon Chat is live, generally unmoderated, and does not have a spam filter. To prevent spam, you must have a Forumvine account.</div>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT
+         *  THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR
+         *  PLATFORM OR CMS.
+         *
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT:
+         *  https://disqus.com/admin/universalcode/#configuration-variables
+         */
+
+        var disqus_config = function() {
+            // Replace PAGE_URL with your page's canonical URL variable
+            this.page.url = "http://forums.berksgrapevine.com/pages/chat/";
+
+            // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            this.page.identifier = "chatvine";
+        };
+
+
+        (function() { // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+            var d = document,
+                s = d.createElement('script');
+
+            // IMPORTANT: Replace EXAMPLE with your forum shortname!
+            s.src = 'https://chatvine.disqus.com/embed.js';
+
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <!--a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a-->
+
+</div>
